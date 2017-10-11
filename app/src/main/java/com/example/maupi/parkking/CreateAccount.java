@@ -24,7 +24,7 @@ public class CreateAccount extends AppCompatActivity {
             @Override
             public void onClick(View view)
             {
-                onSignUpClick(// Need to pass view here);
+                onSignUpClick(view);
             }
         });
     }

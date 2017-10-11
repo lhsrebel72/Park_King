@@ -19,9 +19,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     // Create table command
     private static final String CREATE_TABLE = "CREATE TABLE " + TABLE_NAME + "(" +
-            COLUMN_ID + "NOT NULL PRIMARY KEY AUTO_INCREMENT " +
-            COLUMN_UNAME + " NOT NULL " +
-            COLUMN_PASS + " NOT NULL " +
+            COLUMN_UNAME + " NOT NULL, " +
+            COLUMN_PASS + " NOT NULL, " +
             COLUMN_EMAIL + " NOT NULL);" ;
 
     public DatabaseHelper(Context context){
