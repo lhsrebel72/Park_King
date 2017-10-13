@@ -15,16 +15,21 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter Username"/>
+            android:hint="Enter Username"
+            android:id="@+id/user"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter Password" />
+            android:hint="Enter Password"
+            android:id="@+id/password"
+            android:inputType="textPassword"/>
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Log In"/>
+            android:hint="Log In"
+            android:id="@+id/login"/>
         <Button
             android:id="@+id/AccBtn"
             android:layout_width="match_parent"
@@ -32,6 +37,6 @@
             android:hint="Create Account"
             android:onClick="goToCreatAccount"/>
 
-        </android.widget.LinearLayout>
+    </android.widget.LinearLayout>
 
 </android.widget.RelativeLayout>

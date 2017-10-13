@@ -26,22 +26,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Password"
-                android:id = "@+id/pass1"/>
+                android:id = "@+id/pass1"
+                android:inputType="textPassword"/>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Verify Password"
-                android:id = "@+id/pass2"/>
+                android:id = "@+id/pass2"
+                android:inputType="textPassword"/>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Email address"
-                android:id = "@+id/email"/>
+                android:id = "@+id/email"
+                android:inputType="textEmailAddress"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Submit"
-                android:id = "@+id/submit" />
+                android:id = "@+id/submit"
+                android:onClick="onSignUpClick"/>
         </LinearLayout>
     </ScrollView>
 
