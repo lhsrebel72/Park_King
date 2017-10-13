@@ -19,7 +19,8 @@
         <activity android:name=".CreateAccount" />
         <activity
             android:name=".getPaymentInfo"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MapView"></activity>
     </application>
 
 </manifest>

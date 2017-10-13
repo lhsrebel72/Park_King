@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.maupi.parkking.MapView">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="434dp"
+        android:layout_height="448dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@android:color/holo_green_dark"
+        tools:layout_editor_absoluteY="-79dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="214dp"
+        android:layout_height="84dp"
+        android:text="Map Goes Here"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="393dp"
+        android:layout_height="34dp"
+        app:srcCompat="@android:color/darker_gray"
+        tools:layout_editor_absoluteY="480dp"
+        android:layout_marginLeft="-4dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="194dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="-5dp"
+        android:text="Shows nearest meter-expandable to view more"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="52dp"
+        android:layout_height="34dp"
+        app:srcCompat="@android:color/holo_blue_bright"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="335dp"
+        android:layout_height="36dp"
+        app:srcCompat="@android:color/darker_gray"
+        tools:layout_editor_absoluteY="-2dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="333dp"
+        android:layout_height="34dp"
+        android:text="Progress bar of current meter(if you have one)"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="55dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="-2dp"
+        android:text="Drop-down menu of diff setting"
+        android:textAlignment="center"
+        android:textSize="8sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="333dp" />
+</android.support.constraint.ConstraintLayout>
