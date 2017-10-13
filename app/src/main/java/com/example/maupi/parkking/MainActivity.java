@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       AccBtn = (Button) findViewById(R.id.AccBtn);
+        AccBtn = (Button) findViewById(R.id.AccBtn);
 
         AccBtn.setOnClickListener(new View.OnClickListener()
         {
@@ -69,5 +69,16 @@ public class MainActivity extends AppCompatActivity {
             Toast failure =  Toast.makeText(MainActivity.this, "Sorry, wrong username or password", Toast.LENGTH_SHORT);
             failure.show();
         }
+        getPaymentInfo();
     }
+
+    public void getPaymentInfo(){
+        Intent intent = new Intent(this, getPaymentInfo.class);
+        startActivity(intent);
+    }
+
+
+
+
 }
+

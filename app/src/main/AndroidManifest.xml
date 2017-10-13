@@ -17,6 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".CreateAccount" />
+        <activity
+            android:name=".getPaymentInfo"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>
